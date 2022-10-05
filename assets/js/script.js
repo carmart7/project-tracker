@@ -4,5 +4,6 @@ function displayTimeDay(){
 
 }
 
+$( "#projectDueDateInput" ).datepicker();
 displayTimeDay();
 setInterval(displayTimeDay, 1000);
